@@ -5,7 +5,7 @@ manifest:
     - name: aroum
       url-base: https://github.com/aroum
   projects:
-    - name: zmk_led
+    - name: zmk
       remote: aroum
       revision: main
       import: app/west.yml
