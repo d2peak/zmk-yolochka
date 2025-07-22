@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: sqdbruh
-      url-base: https://github.com/sqdbruh
+    - name: aroum
+      url-base: https://github.com/aroum
   projects:
     - name: zmk_led
       remote: aroum
