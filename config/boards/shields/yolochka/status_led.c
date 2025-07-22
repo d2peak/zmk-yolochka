@@ -60,6 +60,7 @@ typedef enum {
     LED_2,
     LED_3,
     LED_4,
+    LED_5,
     LED_COUNT
 } LedType;
 
@@ -69,6 +70,7 @@ struct Led individual_leds[LED_COUNT] = {
     [LED_2] = { .dev = DEVICE_DT_GET(DT_CHOSEN(zmk_backlight)), .id = 1 },
     [LED_3] = { .dev = DEVICE_DT_GET(DT_CHOSEN(zmk_backlight)), .id = 2 },
     [LED_4] = { .dev = DEVICE_DT_GET(DT_CHOSEN(zmk_backlight)), .id = 3 },
+    [LED_5] = { .dev = DEVICE_DT_GET(DT_CHOSEN(zmk_backlight)), .id = 4 },
 };
 
 // Global state variables
