@@ -5,11 +5,4 @@
  */
 
 #include "yolochka.dtsi"
-/ {
-    backlight: pwmleds {
-    };
-};
-&pwm0 {};
-&pinctrl {};
-&pwm0 {};
 
