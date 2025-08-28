@@ -1,1 +1,0 @@
-# ZMK firmware for yolochka
